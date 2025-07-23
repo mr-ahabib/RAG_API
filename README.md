@@ -52,8 +52,10 @@ python manage.py migrate
 
 #API key
 - Use the API key that I included in the submission. because github rejects the api key. So can not upload it here.
-- (optional)Make sure, you need to have a GROQ API key from https://console.groq.com/playground. Sign in to it and create a API <br> key from 'API Keys' tab. Copy the api key and replace the (GROQ API KEY HERE) with your key in chat/rag_utils.py 
-#Run server
+- (optional)Make sure, you need to have a GROQ API key from https://console.groq.com/playground.  
+Sign in to it and create an API key from the 'API Keys' tab.  
+Copy the API key and replace the (GROQ API KEY HERE) with your key in `chat/rag_utils.py`.
+
 --bash
 python manage.py runserver
 
