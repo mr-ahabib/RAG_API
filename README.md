@@ -21,7 +21,7 @@ Follow these steps to clone the repo and set up the project locally.
 ### Prerequisites
 
 - Python 3.11+
-- Node.js & npm (for React frontend)
+- Node.js & npm (code here: https://github.com/mr-ahabib/RAG_API_Frontend)
 - Git
 
 ---
