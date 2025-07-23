@@ -28,32 +28,29 @@ Follow these steps to clone the repo and set up the project locally.
 
 ### Step 1: Clone the Repository
 
-```bash
 git clone https://github.com/mr-ahabib/RAG_API.git
 cd RAG_API
 ### Step 2: Install Dependencies
 
 
 # Create virtual environment (Windows)
-```bash
 python -m venv venv
 venv\Scripts\activate
 
 
 # Install Python dependencies
-```bash
 pip install -r requirements.txt
 
-#Run Migrations
-```bash
+# Run Migrations
 python manage.py makemigrations
 python manage.py migrate
 
 
-#API key
-- Make sure, you need to have a GROQ API key from https://console.groq.com/playground. Sign in to it and create a API key from 'API Keys' tab. Copy the api key and replace the (GROQ API KEY HERE) with your key in chat/rag_utils.py 
+# API key
+- Use the API key that I included in the submission. because github rejects the api key. So can not upload it here.
+- (optional) Make sure, you need to have a GROQ API key from https://console.groq.com/playground. Sign in to it and create a API key from 'API Keys' tab. Copy the api key and replace the (GROQ API KEY HERE) with your key in chat/rag_utils.py 
 #Run server
---bash
+
 python manage.py runserver
 
 The backend API will be available at http://localhost:8000/api/chat/
