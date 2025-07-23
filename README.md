@@ -56,6 +56,7 @@ python manage.py migrate
 Sign in to it and create an API key from the 'API Keys' tab.  
 Copy the API key and replace the (GROQ API KEY HERE) with your key in `chat/rag_utils.py`.
 
+# Run server
 --bash
 python manage.py runserver
 
